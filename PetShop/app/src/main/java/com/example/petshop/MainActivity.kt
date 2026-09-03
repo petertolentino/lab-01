@@ -15,4 +15,4 @@ val cat = Cat("Coco", 6)
 val dog = Dog("Mochi", 6)
 val scorpion = Scorpion("Stinger", 32)
 
-val pettablePets = mutableListOf<Pettable>(cat, dog)
+val pettablePets = mutableListOf<Pettable>(cat, dog) // scorpion raises error
