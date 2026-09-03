@@ -1,0 +1,18 @@
+package com.example.petshop
+
+import android.os.Bundle
+import androidx.activity.ComponentActivity
+import androidx.activity.enableEdgeToEdge
+
+class MainActivity : ComponentActivity() {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        enableEdgeToEdge()
+    }
+}
+
+val cat = Cat("Coco", 6)
+val dog = Dog("Mochi", 6)
+val scorpion = Scorpion("Stinger", 32)
+
+val pettablePets = mutableListOf<Pettable>(cat, dog)
